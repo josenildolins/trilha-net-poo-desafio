@@ -9,7 +9,7 @@ namespace DesafioPOO.Models
         }
         public override void InstalarAplicativo(string nomeApp)
         {
-            Console.WriteLine($"Instalando Aplicativo no Celular: {Modelo}");
+            Console.WriteLine($"Instalando Aplicativo {nomeApp} no Celular: {Modelo}");
         }
     }
 }
